@@ -1,4 +1,4 @@
-FROM python:3-aline
+FROM python:3-alpine
 LABEL author="srinu"
 RUN mkdir /flask-hello-world
 ADD . /flask-hello-world
